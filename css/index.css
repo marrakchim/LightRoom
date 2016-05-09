@@ -1,0 +1,99 @@
+body
+{
+	background-image: url("bg.jpg");
+	background-size: 100%;
+}
+
+header 
+{
+	padding:2%;
+	font-family: "channel";
+	text-align: center;
+	font-size: 42px;
+}
+
+header a
+{
+ color: black;
+ text-decoration: none;
+}
+header p:hover
+{
+ color: #000066; 
+ text-decoration: none;
+}
+
+#connexion 
+{
+ 	width: 300px;
+    height: 270px;
+   
+    position: relative;
+    
+    text-align: center;
+
+    margin: auto;
+    padding-top:50px;
+}
+
+
+#pseudo,#password,#button_ok
+{
+	margin:auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-family: courier;
+	text-align: center;
+	width:282px;
+	height: 40px;
+	border:none;
+}
+
+
+#button_sub
+{
+	font-size: 10px;
+	font-family: courier ;
+	text-align: center;
+	width:150px;
+	height: 20px;
+	border: none;
+	border-radius: 10px;
+	margin:auto;
+}
+
+button:hover
+{
+	background-color: #d3e6ee;
+	border: 1px solid #d3e6ee;
+}
+
+
+button
+{
+	background-color: #D19275;
+	opacity: 0.4;
+}
+
+p{
+	font-family: "roboto";
+    font-weight: lighter;
+
+}
+
+#connexion p
+{
+	font-size: 13px;
+	font-family: arial;
+}
+
+	@font-face {
+    font-family: "channel";
+    src: url('channel.ttf');
+}
+
+@font-face {
+	font-family: "roboto";
+	src: url("Roboto-Regular.ttf");
+}

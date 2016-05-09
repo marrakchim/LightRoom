@@ -1,0 +1,224 @@
+#barreMenu
+{  
+    position:fixed;
+    width:100%;
+    height:50px;
+    
+  
+   top: 0px;
+   bottom: 0px;
+   
+    background-color: #ecf5f8;
+    background-color: lightgrey;
+
+    
+    z-index: 1000;
+    display:inline-flex;
+
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    padding-top: 10px;
+    
+}
+
+#accueil a:hover, #admin a:hover
+{
+ text-decoration: none;
+    color:darkslategrey;
+}
+
+
+
+#logo 
+{
+	font-family: "channel";
+	text-align: left;
+    font-size: 20px;
+    color: white;
+ 
+}
+
+
+#accueil,#logo,#admin
+{
+    padding:20px;
+}
+
+#accueil:hover, 
+{
+    color: dimgrey;
+}
+#accueil a,#admin a
+{
+    font-family: "roboto";
+
+    font-size: 16px;
+    text-decoration: none;
+
+    color: grey;
+ 
+}
+
+#header_left
+{
+    display:inline-flex;
+    align-items: center;
+    flex-grow: 25%;
+    margin-left:-50px;
+}
+
+#header_center
+{
+   flex-grow: 50%;
+    display:inline-flex;
+
+    align-items: center;
+
+}
+.search
+{
+    
+    flex-basis:50%;
+    padding-right:120px;
+
+}
+
+
+.search form input
+{
+	width:300px;
+    padding:8px;
+    border: 1px solid silver;
+   
+}
+
+#header_right
+{
+    flex-grow: 25%;
+    display:inline-flex;
+    align-items: center;
+
+}
+
+.input_container {
+	height: 30px;
+	float: left;
+}
+.input_container input {
+	height: 30px;
+	width: 200px;
+	padding: 3px;
+	border: 1px solid #cccccc;
+	border-radius: 0;
+}
+.input_container ul {
+	width: 200px;
+	border: 1px solid #eaeaea;
+	position: absolute;
+	z-index: 9;
+	background: #f3f3f3;
+	list-style: none;
+    margin: 0;
+    padding:0;
+}
+.input_container ul li {
+	padding: 2px;
+}
+.input_container ul li:hover {
+	background: #eaeaea;
+}
+.input_container ul li a {
+	text-decoration: none;
+    margin-left: 0;
+}
+.input_container ul li a img {
+	margin-right: 20px;
+    margin-left: 0px;
+}
+
+#searchResults {
+	display: none;
+}
+
+#options,#profil
+{
+   
+}
+
+#options #dots
+{
+  width:50px;
+    height:50px;
+}
+
+
+#image_arrondi{
+     overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:40px;
+    height:40px;
+
+}
+
+/* partie positionnement et déco */
+#header_right a { 
+	display:block; 
+	color: #fff; 
+	text-decoration:none;
+    font-family: "roboto";
+    font-weight: lighter;
+    font-size: 12px;
+    cursor:pointer;
+}
+#header_right > li,
+#header_right > li li {
+	position: relative;
+	display:inline-block;
+
+	padding: 6px 15px;
+    
+
+}
+#header_right > li li 
+{
+    background: transparent none; 
+    
+}
+#header_right > li li a { color: #444;  }
+
+#header_right > li:first-child {
+
+}
+#header_right > li + li {
+    
+
+}
+#header_right > li:last-child {
+margin-top:9px;
+
+}
+#header_right > li:hover {
+}
+/* (presque) fin de la partie positionnement/déco */
+/* dans cette déclaration, on fixe le max-height */
+#header_right ul {
+	position: absolute;
+	top: 50px; left: 0;
+	max-height:0em;	
+	margin: 0; padding: 0;
+	background-color: #ddd;
+	overflow: hidden;
+	transition: 1s max-height 0.3s;
+
+}
+/* ici on change la valeur de max-height au :hover */
+#header_right > li:hover ul {
+	/* à adapter, le minimum est le meilleur mais voyez large 😉 */
+	max-height: 13em;
+}
+

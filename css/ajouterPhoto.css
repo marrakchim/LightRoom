@@ -1,0 +1,50 @@
+#ajoutPhoto{
+    
+    background-color: #edded4;
+	margin-right:18%;
+	margin-left: 18%;	
+	padding-left: 25%;
+    padding-top:30px;
+    padding-bottom:30px;
+    
+}
+
+.file_button_container,
+  .file_button_container input{
+       height: 35px;
+       width: 212px;
+   }
+
+
+.file_button_container input:hover {
+       cursor:pointer;
+   }
+
+.file_button_container {
+       background: lightsteelblue;
+       text-align: center;
+       font-family: "roboto";
+       font-weight:lighter;
+       padding-top:8px;
+       position:relative;
+   }
+
+.file_button_container input {
+    opacity: 0;
+    position:absolute;
+    top:20%;
+    left:0;
+    right:0;
+    bottom:0;
+   }
+
+#enregistrer
+{
+    height:30px;
+    width: 212px;   
+}
+
+#enregistrer a
+{
+    text-decoration: none;
+}

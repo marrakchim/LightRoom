@@ -1,0 +1,275 @@
+
+#info_user
+{
+	margin-top: 150px;
+
+}
+
+#allAlbum
+{
+    padding-bottom: 30px;
+  
+}
+
+#monForm
+{
+    display:none;
+}
+
+#titleAlbums
+{
+    padding-left:50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-family: "roboto";
+    font-size: 22px;
+    font-weight: lighter;
+    color:#edded4;
+
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+#creerUnAlbum
+{
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-family: "roboto";
+    font-weight: lighter; 
+    margin-left:30%;
+    margin-right:30%;
+    
+}
+
+#monForm input, #monForm button
+{
+    width:184px;
+    height:30px;
+}
+
+
+
+.crea
+{
+    padding:5px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.crea:hover
+{
+    cursor:pointer;
+    background-color:lightsteelblue;
+}
+
+.voir
+{
+     padding-top:20px;
+    padding-bottom: 20px;
+    font-family: "roboto";
+    font-weight: lighter; 
+    margin-left:30%;
+    margin-right:30%;
+     padding:5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.voir:hover
+{
+    cursor:pointer;
+    background-color:lightsteelblue;
+}
+
+
+#annuler
+{
+    
+    border: 1px solid black;
+    display:none;
+    padding:3px;
+    text-align:center;
+}
+
+#annuler:hover
+{
+    cursor:pointer;
+    background-color:indianred;
+}
+
+#select
+{
+    font-family: "roboto";
+    font-weight: lighter;
+    font-size: 14px;
+    padding: 50px;
+    padding-bottom: 20px;
+
+}
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+
+#userPhotosButton,#allUserPhotosButton,#creation
+{
+    margin-left: 50px;
+    
+}
+
+#afficherUnAlbum
+{
+    display:none;
+}
+
+#allAlbums
+{
+    background-color: #edded4;
+	margin-right:18%;
+	margin-left: 18%;	
+	padding: 0.1%;
+   
+}
+
+#tousLesAlbums
+{
+    display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    padding-left:40px;
+    padding-top:20px;
+    display:none;
+}
+
+.supprimerAlbum
+{
+    margin-left:50px;
+    margin-top:20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:4px;
+    color:black;
+    font-family: "roboto";
+    font-weight: lighter;
+}
+
+
+#retourAlbums
+{
+    text-decoration: none;
+    font-family: "roboto";
+    font-weight: lighter;
+     margin-right:20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:4px;
+    color:black;
+    
+}
+
+
+#retourAlbum:hover
+{
+    background-color: lightsteelblue;
+    text-decoration: none;
+}
+
+.supprimerAlbum:hover
+{
+     background-color: indianred;
+    text-decoration: none;
+    color:black;
+}
+
+#save
+{
+    display:none;
+    margin-left:50px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    border:1px solid black;
+    padding:3px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-align: center;
+    width:300px;
+    font-family: "roboto";
+    font-weight: lighter;
+    color:black;
+ 
+}
+
+
+
+#save:hover
+{
+    background-color: lightsteelblue;
+    cursor:pointer;
+}
+
+#boutons
+{
+    margin-bottom:30px;
+    display:none;
+    font-family:"roboto";
+    font-weight: lighter;
+    padding:5px;
+}
+
+#photos_user,#photos_all_user
+{
+    padding-top: 30px;
+    display:none;
+}
+
+#noPhoto
+{
+    font-family: "roboto";
+    font-weight: lighter;
+    padding:10px;
+    padding-left:0;
+    margin-left:50px;
+}
+
+
+#ajouterPhotoAlbum
+{
+    border:1px solid black;
+    padding:5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:black;
+    width:150px;
+    text-align: center;
+       margin:2px;
+    width:150px;
+    color:black;
+    font-family: "roboto";
+    font-weight: lighter;
+}
+
+#ajouterPhotoAlbum
+{
+    width:auto;
+}
+
+#ajouterPhotoAlbum:hover
+{
+    background-color: lightsteelblue;
+    cursor:pointer;
+}
+
+
+button
+{
+    text-decoration:none;
+}

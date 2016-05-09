@@ -1,0 +1,356 @@
+body
+{
+	background-image: url("bg.jpg");
+	background-size: 100%;
+    margin:0;
+    margin-top: 150px;
+
+}
+
+ul.container_img {
+  list-style-type: none;
+}
+
+ul.container_img li {
+  display: inline-block;
+
+  margin: 0 1em 1em 0;
+  position: relative;
+
+}
+
+footer
+{
+    height:150px;
+}
+
+#info_user img
+{
+	width:155px;
+	height: 150px;
+}
+
+#unAlbum:hover
+{
+    background-color: lightsteelblue;
+    cursor:pointer;
+}
+
+#unAlbum
+{
+    border:1px solid black;
+    padding:5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:black;
+    width:150px;
+    text-align: center;
+       margin:2px;
+    width:150px;
+    color:black;
+    font-family: "roboto";
+    font-weight: lighter;
+}
+
+#titlePhotos, #titleAlbums
+{
+    padding-left:50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-family: "roboto";
+    font-size: 22px;
+    font-weight: lighter;
+    color:#edded4;
+
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    
+}
+
+#mesElements
+{
+    display: flex;
+    justify-content: flex-start;
+}
+#noPhoto
+{
+    font-family: "roboto";
+    font-weight: lighter;
+    padding:10px;
+    padding-left:0;
+    margin-left:50px;
+}
+
+
+#titlePhotos
+{
+    text-decoration: underline;
+}
+
+#titlePhotos:hover,#titleAlbums:hover
+{
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+#allPhotos
+{
+    background-color: #edded4;
+	margin-right:18%;
+	margin-left: 18%;	
+	padding: 0.1%;
+    padding-bottom: 50px;
+}
+
+#info_user
+{
+	margin-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 40px;
+	padding-top: 40px; 
+	display:flex;
+	justify-content: flex-start;
+    align-items: center;
+}
+
+#photoAlbum
+{
+    display:flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+}
+
+
+
+#username
+{
+	display: inline;
+	font-family: "roboto";
+	font-weight: lighter;
+	font-size: 20px;
+
+}
+
+
+#photos_user,#photos_all_user
+{
+	
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+}
+
+.photo img
+{
+	height: 212px;
+	width: 212px;
+}
+
+.photo img:hover
+{
+	opacity: 0.8;
+}
+
+#image_arrondie{
+  overflow:hidden;
+  -moz-border-radius:70px ;
+-webkit-border-radius:70px ;
+border-radius:70px ;
+}
+
+span.upload-content{
+  background: rgba(0,0,0,0.0);
+  color: black;
+  font-family: "roboto";
+  font-weight: lighter;
+  cursor: pointer;
+  position: relative;
+  opacity: 0;
+}
+#fichier_a_uploader{
+  font-size:40px;
+   opacity:0; 
+   -moz-opacity:0; 
+   filter:alpha(opacity=0);
+    float:right; 
+    cursor:pointer;
+}
+
+
+span.text-content {
+  background: rgba(0,0,0,0.0);
+  color: white;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  cursor: pointer;
+    width:100px;
+    height:37px;
+  font-family: "roboto";
+  font-weight: lighter;
+ 
+
+  left:0;
+  position: absolute;
+  top:60px;
+    
+    margin-left:50px;
+  opacity: 0;
+}
+span.text-content:hover{
+    opacity: 1;
+}
+
+ul.container_pp li:hover span.text-content {
+  opacity: 1;
+}
+ul.container_pp {
+  list-style-type: none;
+}
+
+ul.container_pp li {
+  display: inline-block;
+
+  margin: 0 1em 1em 0;
+  position: relative;
+
+}
+
+
+#modifier p
+{
+	font-family: "roboto";
+	font-weight: lighter;
+	font-size: 25px;
+	padding-bottom: 2%;
+}
+
+
+#modifier{
+
+  position: relative;
+}
+
+#image{
+	height: 212px;
+	width: 212px;
+	margin: auto;
+
+}
+
+#haut_album_user
+{
+    display:flex;
+    justify-content:flex-start ;
+    align-items: center;
+}
+
+#haut_album
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+#tousLesAlbums_user
+{
+    display:none;
+    margin-left:50px;
+}
+
+#titleAlbums a
+{
+    text-decoration:none;
+    color:#edded4;
+}
+
+
+
+#tousLesAlbums
+{
+    display:none;
+}
+
+#noAlbums
+{
+    font-family: "roboto";
+    font-weight: lighter;
+}
+
+#boutonHaut
+{
+    margin-right:20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:4px;
+    color:black;
+}
+
+
+#boutonHaut:hover
+{
+    background-color: lightsteelblue;
+    text-decoration: none;
+}
+
+span.add, span.suppr {
+  background: rgba(0,0,0,0.0);
+  cursor: pointer;
+  left:0;
+  position: absolute;
+  top:0;
+    margin-left:85px;
+    margin-top:82px;
+ 
+  width:42px;
+  height:48px;
+
+  opacity: 0;
+}
+
+ul.container_img li:hover span.suppr,ul.container_img li:hover span.add {
+  opacity: 0.8;
+  width:42px;
+  height:48px;
+}
+
+ul.container_img li:hover span.suppr button,ul.container_img li:hover span.add button {
+  opacity: 0.8;
+  width:42px;
+  height:48px;
+}
+ul.container_img li:hover img.suppr,ul.container_img li:hover img.add {
+  opacity: 1;
+  width:42px;
+  height:48px;
+ 
+}
+
+
+#corbeille,#add
+{
+width:42px;
+  height:48px;
+}
+
+#img_modif img
+{
+	width:155px;
+	height:150px;
+}
+
+#img_modif img:hover
+{
+	opacity: 1;
+}
+@font-face {
+    font-family: "channel";
+    src: url('channel.ttf');
+}
+
+@font-face {
+	font-family: "roboto";
+	src: url("Roboto-Regular.ttf");
+}
+
